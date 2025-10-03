@@ -1,0 +1,14 @@
+{
+  "name": "animation-on-scroll-js",
+  "version": "0.0.1",
+  "private": false,
+  "description": "A small library that does simple animation when scrolling",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --max-warnings=0",
+    "build": "echo \"No build step yet. Skipping.\""
+  },
+  "devDependencies": {
+    "eslint": "^9.10.0"
+  }
+}
