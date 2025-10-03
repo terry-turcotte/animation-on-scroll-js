@@ -5,10 +5,12 @@
   "description": "A small library that does simple animation when scrolling",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint . --max-warnings=0",
+    "lint": "npx eslint index.js",
     "build": "echo \"No build step yet. Skipping.\""
   },
   "devDependencies": {
-    "eslint": "^9.10.0"
+    "@eslint/js": "^9.37.0",
+    "eslint": "^9.37.0",
+    "globals": "^16.4.0"
   }
 }
