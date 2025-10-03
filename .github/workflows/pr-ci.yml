@@ -2,7 +2,7 @@ name: PR CI
 
 on:
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build-and-check:
@@ -46,3 +46,4 @@ jobs:
           else
             echo "No test script found. Skipping."
           fi
+
