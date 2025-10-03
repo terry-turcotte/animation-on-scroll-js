@@ -1,10 +1,37 @@
 {
-  "name": "animation-on-scroll-js",
+  "name": "@terry-turcotte/animation-on-scroll",
   "version": "0.0.1",
-  "private": false,
-  "description": "A small library that does simple animation when scrolling",
-  "license": "MIT",
+  "description": "A small librairy that do simple animation when scrolling",
+  "keywords": [
+    "animation",
+    "scroll",
+    "scrolling",
+    "IntersectionObserver"
+  ],
+  "homepage": "https://github.com/terry-turcotte/animation-on-scroll-js#readme",
+  "bugs": {
+    "url": "https://github.com/terry-turcotte/animation-on-scroll-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terry-turcotte/animation-on-scroll-js.git"
+  },
+  "license": "ISC",
+  "author": "Terry Turcotte <terry@turcotto.dev> (https://turcotto.dev)",
+  "type": "commonjs",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js"
+  ],
+  "sideEffects": false,
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
     "lint": "npx eslint index.js",
     "build": "echo \"No build step yet. Skipping.\""
   },
