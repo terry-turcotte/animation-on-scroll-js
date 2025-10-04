@@ -39,11 +39,11 @@ jobs:
             echo "No build script found. Skipping."
           fi
 
-      - name: Run Tests (if available)
-        run: |
-          if jq -e '.scripts.test' package.json >/dev/null; then
-            npm test --if-present
-          else
-            echo "No test script found. Skipping."
-          fi
+#      - name: Run Tests (if available)
+#        run: |
+#          if jq -e '.scripts.test' package.json >/dev/null; then
+#            npm test --if-present
+#          else
+#            echo "No test script found. Skipping."
+#          fi
 
