@@ -18,11 +18,11 @@
   },
   "license": "ISC",
   "author": "Terry Turcotte <terry@turcotto.dev> (https://turcotto.dev)",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "exports": {
     ".": {
-      "require": "./index.js",
+      "import": "./index.js",
       "default": "./index.js"
     }
   },

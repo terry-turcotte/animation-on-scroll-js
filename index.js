@@ -1,4 +1,4 @@
-exports.addAnimationOnScroll = function (className, startClasses) {
+export function addAnimationOnScroll(className, startClasses) {
     const els = document.querySelectorAll(`.${className}`);
 
     const io = new IntersectionObserver((entries) => {
